@@ -1,0 +1,11 @@
+<p-calendar 
+    [(ngModel)]="date" 
+    (ngModelChange)="dateChanged()" 
+    [disabledDates]="invalidDates"
+    [minDate]="minDate" 
+    [maxDate]="maxDate" 
+    [readonlyInput]="true" 
+    [showIcon]="true"
+    [iconDisplay]="'input'" 
+>
+</p-calendar>
